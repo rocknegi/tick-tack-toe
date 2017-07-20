@@ -41,14 +41,14 @@ class  MainActivity : AppCompatActivity() {
 
         if (activePlayer==1){
             buttonSelected.text="X"
-            buttonSelected.setBackgroundColor(Color.GREEN)
+            buttonSelected.setBackgroundResource(R.color.blue)
             player1.add(selectId)
             activePlayer=2
             autoPlay()
         }
         else{
             buttonSelected.text="O"
-            buttonSelected.setBackgroundColor(Color.RED)
+            buttonSelected.setBackgroundResource(R.color.darkgreen)
             player2.add(selectId)
             activePlayer=1
 
