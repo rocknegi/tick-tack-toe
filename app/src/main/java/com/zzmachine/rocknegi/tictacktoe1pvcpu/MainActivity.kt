@@ -119,7 +119,7 @@ class  MainActivity : AppCompatActivity() {
             }
 
         var rand =Random()
-        val randIndex = rand.nextInt(emptyCell.size-0)
+        val randIndex = rand.nextInt(emptyCell.size-0)+0
 
         val cellId = emptyCell.get(randIndex)
 
